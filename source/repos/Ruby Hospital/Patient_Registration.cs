@@ -40,8 +40,9 @@ namespace Ruby_Hospital
             }
             else
             {
-                txtmail.BackColor = Color.LightPink;
+               
                 errorProvider1.SetError(this.txtmail, "PLEASE PROVIDE VALID EMAIL ADDRESS...");
+                txtmail.BackColor = Color.LightPink;
                 return;
             }
         }
