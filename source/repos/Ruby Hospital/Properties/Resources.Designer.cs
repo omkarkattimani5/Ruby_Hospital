@@ -93,6 +93,26 @@ namespace Ruby_Hospital.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_avatar_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-avatar-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_avatar_50__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-avatar-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_locked_user_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-locked-user-64", resourceCulture);
@@ -126,6 +146,16 @@ namespace Ruby_Hospital.Properties {
         internal static System.Drawing.Bitmap icons8_search_50__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-search-50 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_50__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-search-50 (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

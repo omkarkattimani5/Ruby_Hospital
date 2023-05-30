@@ -7,8 +7,6 @@ C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.Gener
 C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.CoreCompileInputs.cache
 C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.exe
 C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.pdb
-C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Login.resources
-C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Login1.resources
-C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.SignIn.resources
 C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Login_Form.resources
 C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Patient_Registration.resources
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.SingUp.resources
