@@ -22,3 +22,4 @@ C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.Gene
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.CoreCompileInputs.cache
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.exe
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.pdb
+C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby_Hospital.Employee.resources

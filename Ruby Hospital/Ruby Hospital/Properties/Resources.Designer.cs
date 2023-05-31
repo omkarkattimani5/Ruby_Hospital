@@ -63,6 +63,16 @@ namespace Ruby_Hospital.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _264294910_108862081637008_8238947895213189007_n {
             get {
                 object obj = ResourceManager.GetObject("264294910_108862081637008_8238947895213189007_n", resourceCulture);
@@ -86,6 +96,16 @@ namespace Ruby_Hospital.Properties {
         internal static System.Drawing.Bitmap _904_shirt_1024x536 {
             get {
                 object obj = ResourceManager.GetObject("904-shirt-1024x536", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Black_Orange_Corporate_Geometric_Business_Plan_Business_Presentation {
+            get {
+                object obj = ResourceManager.GetObject("Black Orange Corporate Geometric Business Plan Business Presentation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,16 @@ namespace Ruby_Hospital.Properties {
         internal static System.Drawing.Bitmap icons8_sign_up_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-sign-up-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap line_40935 {
+            get {
+                object obj = ResourceManager.GetObject("line-40935", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

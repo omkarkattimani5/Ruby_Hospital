@@ -125,5 +125,10 @@ namespace Ruby_Hospital
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
         }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
