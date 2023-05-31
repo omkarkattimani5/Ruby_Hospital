@@ -116,6 +116,9 @@ namespace Ruby_Hospital
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-1, -3);
@@ -141,6 +144,7 @@ namespace Ruby_Hospital
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Ruby_Hospital.Properties.Resources.icons8_search_50__1_1;
             this.pictureBox2.Location = new System.Drawing.Point(1512, 3);
             this.pictureBox2.Name = "pictureBox2";
@@ -161,6 +165,7 @@ namespace Ruby_Hospital
             // 
             // txtpatient
             // 
+            this.txtpatient.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtpatient.Location = new System.Drawing.Point(1238, 6);
             this.txtpatient.Multiline = true;
             this.txtpatient.Name = "txtpatient";
@@ -170,6 +175,7 @@ namespace Ruby_Hospital
             // 
             // txtpatientsearch
             // 
+            this.txtpatientsearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtpatientsearch.FormattingEnabled = true;
             this.txtpatientsearch.Items.AddRange(new object[] {
             "Name",
@@ -182,6 +188,7 @@ namespace Ruby_Hospital
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -206,8 +213,10 @@ namespace Ruby_Hospital
             // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 554);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1602, 10);
@@ -215,6 +224,9 @@ namespace Ruby_Hospital
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.txtarogya);
             this.groupBox1.Controls.Add(this.panel4);
             this.groupBox1.Controls.Add(this.btnfemale);
@@ -568,6 +580,7 @@ namespace Ruby_Hospital
             // 
             // txtreferred
             // 
+            this.txtreferred.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtreferred.Location = new System.Drawing.Point(521, 17);
             this.txtreferred.MaxLength = 20;
             this.txtreferred.Multiline = true;
@@ -578,6 +591,7 @@ namespace Ruby_Hospital
             // 
             // label16
             // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
@@ -589,6 +603,9 @@ namespace Ruby_Hospital
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.txtaddress);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.txtstate);
@@ -711,6 +728,9 @@ namespace Ruby_Hospital
             // 
             // panel5
             // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel5.Controls.Add(this.button2);
             this.panel5.Controls.Add(this.button1);
@@ -726,6 +746,7 @@ namespace Ruby_Hospital
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button2.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -742,6 +763,9 @@ namespace Ruby_Hospital
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button1.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -758,6 +782,9 @@ namespace Ruby_Hospital
             // 
             // btnsave
             // 
+            this.btnsave.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnsave.BackColor = System.Drawing.Color.Lime;
             this.btnsave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnsave.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -774,6 +801,7 @@ namespace Ruby_Hospital
             // 
             // label23
             // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
@@ -785,6 +813,7 @@ namespace Ruby_Hospital
             // 
             // txtdname
             // 
+            this.txtdname.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtdname.FormattingEnabled = true;
             this.txtdname.Items.AddRange(new object[] {
             "Mr",
@@ -821,6 +850,7 @@ namespace Ruby_Hospital
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Patient Registration";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Patient_Registration_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);

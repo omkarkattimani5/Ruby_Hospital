@@ -117,5 +117,10 @@ namespace Ruby_Hospital
                 e.Handled=true;
             }
         }
+
+        private void Patient_Registration_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
