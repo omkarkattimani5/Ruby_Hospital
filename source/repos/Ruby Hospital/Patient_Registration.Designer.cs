@@ -41,22 +41,22 @@ namespace Ruby_Hospital
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.txtarogya = new System.Windows.Forms.CheckBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btnfemale = new System.Windows.Forms.RadioButton();
+            this.btnmale = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtdatepicker = new System.Windows.Forms.DateTimePicker();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtdate = new System.Windows.Forms.DateTimePicker();
+            this.txtaadhaar = new System.Windows.Forms.TextBox();
             this.txtmail = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtremark = new System.Windows.Forms.TextBox();
+            this.txtalternateno = new System.Windows.Forms.TextBox();
+            this.txtweight = new System.Windows.Forms.TextBox();
+            this.tx = new System.Windows.Forms.TextBox();
+            this.txtmobilenumber = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtname = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -68,30 +68,30 @@ namespace Ruby_Hospital
             this.label18 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtnationality = new System.Windows.Forms.ComboBox();
+            this.txtpurpose = new System.Windows.Forms.ComboBox();
+            this.cbmmaritalstatus = new System.Windows.Forms.ComboBox();
+            this.txtprofix = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtreferred = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtaddress = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.txtstate = new System.Windows.Forms.ComboBox();
+            this.txtdistrist = new System.Windows.Forms.ComboBox();
+            this.txttaluka = new System.Windows.Forms.ComboBox();
+            this.txtcity = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnsave = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.txtdname = new System.Windows.Forms.ComboBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -166,6 +166,7 @@ namespace Ruby_Hospital
             this.txtpatient.Name = "txtpatient";
             this.txtpatient.Size = new System.Drawing.Size(268, 32);
             this.txtpatient.TabIndex = 1;
+            this.txtpatient.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpatient_KeyPress);
             // 
             // txtpatientsearch
             // 
@@ -214,22 +215,22 @@ namespace Ruby_Hospital
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.txtarogya);
             this.groupBox1.Controls.Add(this.panel4);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.btnfemale);
+            this.groupBox1.Controls.Add(this.btnmale);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtdatepicker);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtdate);
+            this.groupBox1.Controls.Add(this.txtaadhaar);
             this.groupBox1.Controls.Add(this.txtmail);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtremark);
+            this.groupBox1.Controls.Add(this.txtalternateno);
+            this.groupBox1.Controls.Add(this.txtweight);
+            this.groupBox1.Controls.Add(this.tx);
+            this.groupBox1.Controls.Add(this.txtmobilenumber);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtname);
             this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label14);
@@ -241,10 +242,10 @@ namespace Ruby_Hospital
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.comboBox4);
-            this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.txtnationality);
+            this.groupBox1.Controls.Add(this.txtpurpose);
+            this.groupBox1.Controls.Add(this.cbmmaritalstatus);
+            this.groupBox1.Controls.Add(this.txtprofix);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(45, 69);
@@ -254,14 +255,14 @@ namespace Ruby_Hospital
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal Details";
             // 
-            // checkBox1
+            // txtarogya
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(185, 343);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 11;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.txtarogya.AutoSize = true;
+            this.txtarogya.Location = new System.Drawing.Point(185, 343);
+            this.txtarogya.Name = "txtarogya";
+            this.txtarogya.Size = new System.Drawing.Size(15, 14);
+            this.txtarogya.TabIndex = 11;
+            this.txtarogya.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -271,27 +272,27 @@ namespace Ruby_Hospital
             this.panel4.Size = new System.Drawing.Size(11, 296);
             this.panel4.TabIndex = 9;
             // 
-            // radioButton2
+            // btnfemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(765, 34);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 25);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.btnfemale.AutoSize = true;
+            this.btnfemale.Location = new System.Drawing.Point(765, 34);
+            this.btnfemale.Name = "btnfemale";
+            this.btnfemale.Size = new System.Drawing.Size(85, 25);
+            this.btnfemale.TabIndex = 5;
+            this.btnfemale.Text = "Female";
+            this.btnfemale.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // btnmale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(684, 35);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(67, 25);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.btnmale.AutoSize = true;
+            this.btnmale.Checked = true;
+            this.btnmale.Location = new System.Drawing.Point(684, 35);
+            this.btnmale.Name = "btnmale";
+            this.btnmale.Size = new System.Drawing.Size(67, 25);
+            this.btnmale.TabIndex = 4;
+            this.btnmale.TabStop = true;
+            this.btnmale.Text = "Male";
+            this.btnmale.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -302,22 +303,23 @@ namespace Ruby_Hospital
             this.label5.TabIndex = 7;
             this.label5.Text = "Sex:";
             // 
-            // txtdatepicker
+            // txtdate
             // 
-            this.txtdatepicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtdatepicker.Location = new System.Drawing.Point(185, 93);
-            this.txtdatepicker.Name = "txtdatepicker";
-            this.txtdatepicker.Size = new System.Drawing.Size(116, 27);
-            this.txtdatepicker.TabIndex = 6;
+            this.txtdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.txtdate.Location = new System.Drawing.Point(185, 93);
+            this.txtdate.Name = "txtdate";
+            this.txtdate.Size = new System.Drawing.Size(116, 27);
+            this.txtdate.TabIndex = 6;
             // 
-            // textBox4
+            // txtaadhaar
             // 
-            this.textBox4.Location = new System.Drawing.Point(185, 287);
-            this.textBox4.MaxLength = 12;
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(246, 30);
-            this.textBox4.TabIndex = 10;
+            this.txtaadhaar.Location = new System.Drawing.Point(185, 287);
+            this.txtaadhaar.MaxLength = 12;
+            this.txtaadhaar.Multiline = true;
+            this.txtaadhaar.Name = "txtaadhaar";
+            this.txtaadhaar.Size = new System.Drawing.Size(246, 30);
+            this.txtaadhaar.TabIndex = 10;
+            this.txtaadhaar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtaadhaar_KeyPress);
             // 
             // txtmail
             // 
@@ -328,51 +330,56 @@ namespace Ruby_Hospital
             this.txtmail.Size = new System.Drawing.Size(246, 30);
             this.txtmail.TabIndex = 9;
             this.txtmail.TextChanged += new System.EventHandler(this.txtmail_TextChanged);
+            this.txtmail.Leave += new System.EventHandler(this.txtmail_Leave);
             // 
-            // textBox10
+            // txtremark
             // 
-            this.textBox10.Location = new System.Drawing.Point(620, 307);
-            this.textBox10.MaxLength = 100;
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(246, 66);
-            this.textBox10.TabIndex = 17;
+            this.txtremark.Location = new System.Drawing.Point(620, 307);
+            this.txtremark.MaxLength = 100;
+            this.txtremark.Multiline = true;
+            this.txtremark.Name = "txtremark";
+            this.txtremark.Size = new System.Drawing.Size(246, 66);
+            this.txtremark.TabIndex = 17;
+            this.txtremark.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtremark_KeyPress);
             // 
-            // textBox8
+            // txtalternateno
             // 
-            this.textBox8.Location = new System.Drawing.Point(619, 214);
-            this.textBox8.MaxLength = 10;
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(246, 30);
-            this.textBox8.TabIndex = 15;
+            this.txtalternateno.Location = new System.Drawing.Point(619, 214);
+            this.txtalternateno.MaxLength = 10;
+            this.txtalternateno.Multiline = true;
+            this.txtalternateno.Name = "txtalternateno";
+            this.txtalternateno.Size = new System.Drawing.Size(246, 30);
+            this.txtalternateno.TabIndex = 15;
+            this.txtalternateno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtalternateno_KeyPress);
             // 
-            // textBox7
+            // txtweight
             // 
-            this.textBox7.Location = new System.Drawing.Point(619, 129);
-            this.textBox7.MaxLength = 3;
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(246, 30);
-            this.textBox7.TabIndex = 13;
+            this.txtweight.Location = new System.Drawing.Point(619, 129);
+            this.txtweight.MaxLength = 3;
+            this.txtweight.Multiline = true;
+            this.txtweight.Name = "txtweight";
+            this.txtweight.Size = new System.Drawing.Size(246, 30);
+            this.txtweight.TabIndex = 13;
+            this.txtweight.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtweight_KeyPress);
             // 
-            // textBox6
+            // tx
             // 
-            this.textBox6.Location = new System.Drawing.Point(619, 84);
-            this.textBox6.MaxLength = 2;
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(246, 30);
-            this.textBox6.TabIndex = 12;
+            this.tx.Location = new System.Drawing.Point(619, 84);
+            this.tx.MaxLength = 2;
+            this.tx.Multiline = true;
+            this.tx.Name = "tx";
+            this.tx.Size = new System.Drawing.Size(246, 30);
+            this.tx.TabIndex = 12;
             // 
-            // textBox2
+            // txtmobilenumber
             // 
-            this.textBox2.Location = new System.Drawing.Point(184, 194);
-            this.textBox2.MaxLength = 10;
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 30);
-            this.textBox2.TabIndex = 8;
+            this.txtmobilenumber.Location = new System.Drawing.Point(184, 194);
+            this.txtmobilenumber.MaxLength = 10;
+            this.txtmobilenumber.Multiline = true;
+            this.txtmobilenumber.Name = "txtmobilenumber";
+            this.txtmobilenumber.Size = new System.Drawing.Size(246, 30);
+            this.txtmobilenumber.TabIndex = 8;
+            this.txtmobilenumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtmobilenumber_KeyPress);
             // 
             // label17
             // 
@@ -392,13 +399,14 @@ namespace Ruby_Hospital
             this.label10.TabIndex = 2;
             this.label10.Text = "AROGYA Card:";
             // 
-            // textBox1
+            // txtname
             // 
-            this.textBox1.Location = new System.Drawing.Point(237, 34);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(377, 32);
-            this.textBox1.TabIndex = 3;
+            this.txtname.Location = new System.Drawing.Point(237, 34);
+            this.txtname.Multiline = true;
+            this.txtname.Name = "txtname";
+            this.txtname.Size = new System.Drawing.Size(377, 32);
+            this.txtname.TabIndex = 3;
+            this.txtname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label24
             // 
@@ -499,54 +507,54 @@ namespace Ruby_Hospital
             this.label4.TabIndex = 2;
             this.label4.Text = "DOB:";
             // 
-            // comboBox4
+            // txtnationality
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.txtnationality.FormattingEnabled = true;
+            this.txtnationality.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox4.Location = new System.Drawing.Point(622, 260);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(244, 29);
-            this.comboBox4.TabIndex = 16;
+            this.txtnationality.Location = new System.Drawing.Point(622, 260);
+            this.txtnationality.Name = "txtnationality";
+            this.txtnationality.Size = new System.Drawing.Size(244, 29);
+            this.txtnationality.TabIndex = 16;
             // 
-            // comboBox3
+            // txtpurpose
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.txtpurpose.FormattingEnabled = true;
+            this.txtpurpose.Items.AddRange(new object[] {
             "OPD",
             "IPD",
             "Only Test"});
-            this.comboBox3.Location = new System.Drawing.Point(622, 173);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(244, 29);
-            this.comboBox3.TabIndex = 14;
+            this.txtpurpose.Location = new System.Drawing.Point(622, 173);
+            this.txtpurpose.Name = "txtpurpose";
+            this.txtpurpose.Size = new System.Drawing.Size(244, 29);
+            this.txtpurpose.TabIndex = 14;
             // 
-            // comboBox2
+            // cbmmaritalstatus
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbmmaritalstatus.FormattingEnabled = true;
+            this.cbmmaritalstatus.Items.AddRange(new object[] {
             "Married",
             "Unmarried",
             "Divorced",
             "Separated",
             "Widowed"});
-            this.comboBox2.Location = new System.Drawing.Point(185, 143);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(138, 29);
-            this.comboBox2.TabIndex = 7;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.cbmmaritalstatus.Location = new System.Drawing.Point(185, 143);
+            this.cbmmaritalstatus.Name = "cbmmaritalstatus";
+            this.cbmmaritalstatus.Size = new System.Drawing.Size(138, 29);
+            this.cbmmaritalstatus.TabIndex = 7;
+            this.cbmmaritalstatus.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox1
+            // txtprofix
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.txtprofix.FormattingEnabled = true;
+            this.txtprofix.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox1.Location = new System.Drawing.Point(178, 36);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(58, 29);
-            this.comboBox1.TabIndex = 2;
+            this.txtprofix.Location = new System.Drawing.Point(178, 36);
+            this.txtprofix.Name = "txtprofix";
+            this.txtprofix.Size = new System.Drawing.Size(58, 29);
+            this.txtprofix.TabIndex = 2;
             // 
             // label3
             // 
@@ -558,14 +566,15 @@ namespace Ruby_Hospital
             this.label3.TabIndex = 0;
             this.label3.Text = "Name:";
             // 
-            // textBox9
+            // txtreferred
             // 
-            this.textBox9.Location = new System.Drawing.Point(521, 17);
-            this.textBox9.MaxLength = 20;
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(246, 30);
-            this.textBox9.TabIndex = 24;
+            this.txtreferred.Location = new System.Drawing.Point(521, 17);
+            this.txtreferred.MaxLength = 20;
+            this.txtreferred.Multiline = true;
+            this.txtreferred.Name = "txtreferred";
+            this.txtreferred.Size = new System.Drawing.Size(246, 30);
+            this.txtreferred.TabIndex = 24;
+            this.txtreferred.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtreferred_KeyPress);
             // 
             // label16
             // 
@@ -580,16 +589,16 @@ namespace Ruby_Hospital
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox11);
+            this.groupBox2.Controls.Add(this.txtaddress);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.comboBox8);
-            this.groupBox2.Controls.Add(this.comboBox6);
-            this.groupBox2.Controls.Add(this.comboBox7);
-            this.groupBox2.Controls.Add(this.comboBox5);
+            this.groupBox2.Controls.Add(this.txtstate);
+            this.groupBox2.Controls.Add(this.txtdistrist);
+            this.groupBox2.Controls.Add(this.txttaluka);
+            this.groupBox2.Controls.Add(this.txtcity);
             this.groupBox2.Controls.Add(this.label22);
+            this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Controls.Add(this.label20);
-            this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Location = new System.Drawing.Point(966, 65);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(481, 391);
@@ -597,14 +606,14 @@ namespace Ruby_Hospital
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Address details";
             // 
-            // textBox11
+            // txtaddress
             // 
-            this.textBox11.Location = new System.Drawing.Point(122, 26);
-            this.textBox11.MaxLength = 800;
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(337, 135);
-            this.textBox11.TabIndex = 18;
+            this.txtaddress.Location = new System.Drawing.Point(122, 26);
+            this.txtaddress.MaxLength = 800;
+            this.txtaddress.Multiline = true;
+            this.txtaddress.Name = "txtaddress";
+            this.txtaddress.Size = new System.Drawing.Size(337, 135);
+            this.txtaddress.TabIndex = 18;
             // 
             // label11
             // 
@@ -616,65 +625,75 @@ namespace Ruby_Hospital
             this.label11.TabIndex = 2;
             this.label11.Text = "Address";
             // 
-            // comboBox8
+            // txtstate
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.txtstate.FormattingEnabled = true;
+            this.txtstate.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox8.Location = new System.Drawing.Point(123, 341);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(244, 29);
-            this.comboBox8.TabIndex = 22;
+            this.txtstate.Location = new System.Drawing.Point(122, 193);
+            this.txtstate.Name = "txtstate";
+            this.txtstate.Size = new System.Drawing.Size(244, 29);
+            this.txtstate.TabIndex = 19;
             // 
-            // comboBox6
+            // txtdistrist
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.txtdistrist.FormattingEnabled = true;
+            this.txtdistrist.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox6.Location = new System.Drawing.Point(123, 238);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(244, 29);
-            this.comboBox6.TabIndex = 20;
+            this.txtdistrist.Location = new System.Drawing.Point(123, 293);
+            this.txtdistrist.Name = "txtdistrist";
+            this.txtdistrist.Size = new System.Drawing.Size(244, 29);
+            this.txtdistrist.TabIndex = 21;
             // 
-            // comboBox7
+            // txttaluka
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.txttaluka.FormattingEnabled = true;
+            this.txttaluka.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox7.Location = new System.Drawing.Point(122, 288);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(244, 29);
-            this.comboBox7.TabIndex = 21;
+            this.txttaluka.Location = new System.Drawing.Point(122, 343);
+            this.txttaluka.Name = "txttaluka";
+            this.txttaluka.Size = new System.Drawing.Size(244, 29);
+            this.txttaluka.TabIndex = 22;
             // 
-            // comboBox5
+            // txtcity
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.txtcity.FormattingEnabled = true;
+            this.txtcity.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox5.Location = new System.Drawing.Point(123, 183);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(244, 29);
-            this.comboBox5.TabIndex = 19;
+            this.txtcity.Location = new System.Drawing.Point(123, 244);
+            this.txtcity.Name = "txtcity";
+            this.txtcity.Size = new System.Drawing.Size(244, 29);
+            this.txtcity.TabIndex = 20;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(16, 342);
+            this.label22.Location = new System.Drawing.Point(15, 194);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(63, 21);
+            this.label22.Size = new System.Drawing.Size(57, 21);
             this.label22.TabIndex = 2;
-            this.label22.Text = "Status:";
+            this.label22.Text = "State:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(10, 249);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 21);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "City:";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(15, 288);
+            this.label21.Location = new System.Drawing.Point(15, 343);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(65, 21);
             this.label21.TabIndex = 2;
@@ -684,21 +703,11 @@ namespace Ruby_Hospital
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(11, 243);
+            this.label20.Location = new System.Drawing.Point(11, 298);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(63, 21);
             this.label20.TabIndex = 2;
             this.label20.Text = "Distrist:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(10, 188);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 21);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "City:";
             // 
             // panel5
             // 
@@ -707,9 +716,9 @@ namespace Ruby_Hospital
             this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.btnsave);
             this.panel5.Controls.Add(this.label23);
-            this.panel5.Controls.Add(this.textBox9);
+            this.panel5.Controls.Add(this.txtreferred);
             this.panel5.Controls.Add(this.label16);
-            this.panel5.Controls.Add(this.comboBox9);
+            this.panel5.Controls.Add(this.txtdname);
             this.panel5.Location = new System.Drawing.Point(0, 488);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1782, 61);
@@ -774,17 +783,17 @@ namespace Ruby_Hospital
             this.label23.TabIndex = 6;
             this.label23.Text = "Referred By :";
             // 
-            // comboBox9
+            // txtdname
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.txtdname.FormattingEnabled = true;
+            this.txtdname.Items.AddRange(new object[] {
             "Mr",
             "Miss"});
-            this.comboBox9.Location = new System.Drawing.Point(142, 18);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(244, 29);
-            this.comboBox9.TabIndex = 23;
-            this.comboBox9.Leave += new System.EventHandler(this.comboBox9_Leave);
+            this.txtdname.Location = new System.Drawing.Point(142, 18);
+            this.txtdname.Name = "txtdname";
+            this.txtdname.Size = new System.Drawing.Size(244, 29);
+            this.txtdname.TabIndex = 23;
+            this.txtdname.Leave += new System.EventHandler(this.comboBox9_Leave);
             // 
             // errorProvider1
             // 
@@ -839,22 +848,22 @@ namespace Ruby_Hospital
         private System.Windows.Forms.ComboBox txtpatientsearch;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton btnfemale;
+        private System.Windows.Forms.RadioButton btnmale;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker txtdatepicker;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker txtdate;
+        private System.Windows.Forms.TextBox txtname;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox txtprofix;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtmobilenumber;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbmmaritalstatus;
         private System.Windows.Forms.TextBox txtmail;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtaadhaar;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label17;
@@ -864,28 +873,28 @@ namespace Ruby_Hospital
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox txtalternateno;
+        private System.Windows.Forms.TextBox txtweight;
+        private System.Windows.Forms.TextBox tx;
+        private System.Windows.Forms.TextBox txtremark;
+        private System.Windows.Forms.TextBox txtreferred;
+        private System.Windows.Forms.ComboBox txtnationality;
+        private System.Windows.Forms.ComboBox txtpurpose;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtaddress;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox txtstate;
+        private System.Windows.Forms.ComboBox txtdistrist;
+        private System.Windows.Forms.ComboBox txttaluka;
+        private System.Windows.Forms.ComboBox txtcity;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox txtarogya;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox txtdname;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnsave;

@@ -29,12 +29,15 @@ namespace Ruby_Hospital
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SingUp));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Labelrole = new System.Windows.Forms.Label();
             this.txtms = new System.Windows.Forms.ComboBox();
@@ -49,19 +52,20 @@ namespace Ruby_Hospital
             this.txtname = new System.Windows.Forms.TextBox();
             this.txtmail = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -69,6 +73,40 @@ namespace Ruby_Hospital
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(483, 129);
             this.panel1.TabIndex = 43;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Ruby_Hospital.Properties.Resources._264294910_108862081637008_8238947895213189007_n;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(117, 57);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 49;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(444, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(27, 31);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 48;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = global::Ruby_Hospital.Properties.Resources.icons8_avatar_50;
+            this.pictureBox1.Location = new System.Drawing.Point(193, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 87);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 47;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -96,24 +134,12 @@ namespace Ruby_Hospital
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Ruby_Hospital.Properties.Resources.icons8_avatar_50__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(193, 76);
+            this.pictureBox2.Location = new System.Drawing.Point(193, 100);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(98, 87);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::Ruby_Hospital.Properties.Resources.icons8_avatar_50;
-            this.pictureBox1.Location = new System.Drawing.Point(193, 73);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(98, 87);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 47;
-            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -131,7 +157,7 @@ namespace Ruby_Hospital
             this.panel2.Controls.Add(this.txtname);
             this.panel2.Controls.Add(this.txtmail);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(61, 183);
+            this.panel2.Location = new System.Drawing.Point(57, 200);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(370, 460);
             this.panel2.TabIndex = 47;
@@ -182,7 +208,7 @@ namespace Ruby_Hospital
             this.txtcpass.BackColor = System.Drawing.Color.White;
             this.txtcpass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcpass.Location = new System.Drawing.Point(38, 368);
-            this.txtcpass.MaxLength = 10;
+            this.txtcpass.MaxLength = 12;
             this.txtcpass.Multiline = true;
             this.txtcpass.Name = "txtcpass";
             this.txtcpass.Size = new System.Drawing.Size(294, 26);
@@ -217,7 +243,7 @@ namespace Ruby_Hospital
             this.txtpass.BackColor = System.Drawing.Color.White;
             this.txtpass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpass.Location = new System.Drawing.Point(38, 301);
-            this.txtpass.MaxLength = 10;
+            this.txtpass.MaxLength = 12;
             this.txtpass.Multiline = true;
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(294, 26);
@@ -252,7 +278,7 @@ namespace Ruby_Hospital
             this.txtusername.BackColor = System.Drawing.Color.White;
             this.txtusername.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusername.Location = new System.Drawing.Point(38, 168);
-            this.txtusername.MaxLength = 15;
+            this.txtusername.MaxLength = 20;
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(294, 26);
@@ -268,6 +294,7 @@ namespace Ruby_Hospital
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(294, 26);
             this.txtname.TabIndex = 45;
+            this.txtname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtname_KeyPress);
             // 
             // txtmail
             // 
@@ -279,6 +306,8 @@ namespace Ruby_Hospital
             this.txtmail.Name = "txtmail";
             this.txtmail.Size = new System.Drawing.Size(294, 26);
             this.txtmail.TabIndex = 47;
+            this.txtmail.TextChanged += new System.EventHandler(this.txtmail_TextChanged);
+            this.txtmail.Leave += new System.EventHandler(this.txtmail_Leave);
             // 
             // label4
             // 
@@ -292,28 +321,9 @@ namespace Ruby_Hospital
             this.label4.TabIndex = 53;
             this.label4.Text = "Name";
             // 
-            // pictureBox4
+            // errorProvider1
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(444, 12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(27, 31);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 48;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(182, 21);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 41);
-            this.label7.TabIndex = 58;
-            this.label7.Text = "SingUp";
+            this.errorProvider1.ContainerControl = this;
             // 
             // SingUp
             // 
@@ -334,12 +344,13 @@ namespace Ruby_Hospital
             this.Text = "SignIn";
             this.Load += new System.EventHandler(this.SingUp_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -353,7 +364,6 @@ namespace Ruby_Hospital
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label Labelrole;
-        private System.Windows.Forms.ComboBox txtms;
         private System.Windows.Forms.Button btnsave;
         private System.Windows.Forms.TextBox txtcpass;
         private System.Windows.Forms.Label label6;
@@ -366,6 +376,8 @@ namespace Ruby_Hospital
         private System.Windows.Forms.TextBox txtmail;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox txtms;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

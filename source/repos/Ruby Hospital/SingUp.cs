@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace Ruby_Hospital
 {
@@ -52,6 +53,41 @@ namespace Ruby_Hospital
             else
             {
 
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtname_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmail_Leave(object sender, EventArgs e)
+        {
+            string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
+            if (Regex.IsMatch(txtmail.Text, pattern))
+            {
+                errorProvider1.Clear();
+                txtmail.BackColor = Color.White;
+            }
+            else
+            {
+
+                errorProvider1.SetError(this.txtmail, "PLEASE PROVIDE VALID EMAIL ADDRESS...");
+                txtmail.BackColor = Color.LightPink;
+                return;
             }
         }
     }

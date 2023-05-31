@@ -32,6 +32,11 @@ namespace Ruby_Hospital
 
         private void txtmail_TextChanged(object sender, EventArgs e)
         {
+           
+        }
+
+        private void txtmail_Leave(object sender, EventArgs e)
+        {
             string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
             if (Regex.IsMatch(txtmail.Text, pattern))
             {
@@ -40,10 +45,76 @@ namespace Ruby_Hospital
             }
             else
             {
-               
+
                 errorProvider1.SetError(this.txtmail, "PLEASE PROVIDE VALID EMAIL ADDRESS...");
                 txtmail.BackColor = Color.LightPink;
                 return;
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if( char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+
+            }
+        }
+
+        private void txtmobilenumber_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                {
+                e.Handled = true;
+            }
+        }
+
+        private void txtaadhaar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtweight_KeyPress(object sender, KeyPressEventArgs e)
+        {
+                 if(!char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+
+            }
+        }
+
+        private void txtalternateno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtremark_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+         }
+
+        private void txtpatient_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+         }
+
+        private void txtreferred_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(char .IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled=true;
             }
         }
     }
