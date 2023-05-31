@@ -1,0 +1,12 @@
+C:\Users\MI Tech\source\repos\Ruby Hospital\bin\Debug\Ruby Hospital.exe.config
+C:\Users\MI Tech\source\repos\Ruby Hospital\bin\Debug\Ruby Hospital.exe
+C:\Users\MI Tech\source\repos\Ruby Hospital\bin\Debug\Ruby Hospital.pdb
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.AssemblyReference.cache
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Properties.Resources.resources
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.GenerateResource.cache
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.CoreCompileInputs.cache
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.exe
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby Hospital.pdb
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Login_Form.resources
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.Patient_Registration.resources
+C:\Users\MI Tech\source\repos\Ruby Hospital\obj\Debug\Ruby_Hospital.SingUp.resources
