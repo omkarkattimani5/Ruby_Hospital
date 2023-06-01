@@ -47,8 +47,6 @@ namespace Ruby_Hospital
             this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.MLC = new System.Windows.Forms.CheckBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -68,6 +66,8 @@ namespace Ruby_Hospital
             this.label14 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -104,10 +104,11 @@ namespace Ruby_Hospital
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Red;
+            this.button4.BackColor = System.Drawing.Color.Brown;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(818, 708);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(818, 700);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(127, 40);
             this.button4.TabIndex = 14;
@@ -117,7 +118,7 @@ namespace Ruby_Hospital
             // groupBox1
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label3);
@@ -209,16 +210,17 @@ namespace Ruby_Hospital
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(73, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 21);
+            this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Name ";
+            this.label2.Text = "Full Name ";
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
+            this.button3.BackColor = System.Drawing.Color.Goldenrod;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(655, 708);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(655, 700);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(127, 40);
             this.button3.TabIndex = 13;
@@ -253,6 +255,7 @@ namespace Ruby_Hospital
             this.label10.AutoSize = true;
             this.label10.Dock = System.Windows.Forms.DockStyle.Left;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(0, 0);
             this.label10.Margin = new System.Windows.Forms.Padding(50, 5, 50, 90);
             this.label10.Name = "label10";
@@ -274,10 +277,10 @@ namespace Ruby_Hospital
             // groupBox2
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox2.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(168)))), ((int)(((byte)(168)))));
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.MLC);
+            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.textBox3);
             this.groupBox2.Controls.Add(this.label4);
@@ -300,28 +303,6 @@ namespace Ruby_Hospital
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Addmission Details";
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(563, 128);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(101, 25);
-            this.checkBox2.TabIndex = 12;
-            this.checkBox2.Text = "Non-MLC";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // MLC
-            // 
-            this.MLC.AutoSize = true;
-            this.MLC.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MLC.Location = new System.Drawing.Point(486, 128);
-            this.MLC.Name = "MLC";
-            this.MLC.Size = new System.Drawing.Size(64, 25);
-            this.MLC.TabIndex = 11;
-            this.MLC.Text = "MLC";
-            this.MLC.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
@@ -393,9 +374,9 @@ namespace Ruby_Hospital
             this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(681, 83);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(130, 21);
+            this.label12.Size = new System.Drawing.Size(97, 21);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Room Segment";
+            this.label12.Text = "Referred By";
             // 
             // label11
             // 
@@ -404,9 +385,9 @@ namespace Ruby_Hospital
             this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(681, 32);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(130, 21);
+            this.label11.Size = new System.Drawing.Size(97, 21);
             this.label11.TabIndex = 0;
-            this.label11.Text = "Room Segment";
+            this.label11.Text = "Consultant";
             // 
             // comboBox3
             // 
@@ -530,6 +511,31 @@ namespace Ruby_Hospital
             this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(406, 129);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(64, 23);
+            this.radioButton1.TabIndex = 18;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "MLC ";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(497, 129);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(103, 23);
+            this.radioButton2.TabIndex = 18;
+            this.radioButton2.Text = "Non-MLC ";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // IPD_Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -601,8 +607,6 @@ namespace Ruby_Hospital
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox MLC;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label12;
@@ -612,5 +616,7 @@ namespace Ruby_Hospital
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

@@ -54,5 +54,10 @@ namespace Ruby_Hospital
         {
 
         }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

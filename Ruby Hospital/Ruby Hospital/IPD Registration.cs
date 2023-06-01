@@ -45,5 +45,10 @@ namespace Ruby_Hospital
         {
 
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            radioButton1.Checked = true;
+        }
     }
 }
