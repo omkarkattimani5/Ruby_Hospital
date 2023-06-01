@@ -660,7 +660,7 @@ namespace Ruby_Hospital
             this.Controls.Add(this.pictureBox1);
             this.Name = "Employee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Employee";
+            this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Employee_Load);
             this.panel2.ResumeLayout(false);
