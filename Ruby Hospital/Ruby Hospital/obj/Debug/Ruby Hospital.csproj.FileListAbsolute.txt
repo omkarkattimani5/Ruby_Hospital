@@ -23,3 +23,4 @@ C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.csproj.Core
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.exe
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby Hospital.pdb
 C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby_Hospital.Employee.resources
+C:\Users\MI Tech\Ruby Hospital\Ruby Hospital\obj\Debug\Ruby_Hospital.IPD_Registration.resources
